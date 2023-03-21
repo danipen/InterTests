@@ -1,0 +1,18 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="InterTests.MainWindow"
+        Title="InterTests">
+  <StackPanel Margin="20">
+    <TextBlock FontSize="20" Text="Avalonia.Fonts.Inter font rendering" />
+    <TextBlock FontSize="12" Text="Fix issue detected by AnnotateFile"/>
+    <TextBlock FontSize="13" Text="Fix issue detected by AnnotateFile"/>
+    <TextBlock FontSize="14" Text="Fix issue detected by AnnotateFile"/>
+    <TextBlock FontFamily="avares://InterTests/Assets#Inter" Margin="0 20 0 0" FontSize="20" Text="Avalonia.Fluent.Theme font rendering" />
+    <TextBlock FontFamily="avares://InterTests/Assets#Inter" FontSize="12" Text="Fix issue detected by AnnotateFile"/>
+    <TextBlock FontFamily="avares://InterTests/Assets#Inter" FontSize="13" Text="Fix issue detected by AnnotateFile"/>
+    <TextBlock FontFamily="avares://InterTests/Assets#Inter" FontSize="14" Text="Fix issue detected by AnnotateFile"/>
+  </StackPanel>
+</Window>
